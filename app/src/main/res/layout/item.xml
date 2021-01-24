@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="13dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/idke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/nissu"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nis"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/notelp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Telp"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/tagihan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Tagihan1"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tagihan2"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan2"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan3"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan3"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan4"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan4"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan5"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan5"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan6"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan6"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan7"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan7"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan8"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan8"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan9"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan9"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan10"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan10"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan11"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan11"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tagihan12"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan12"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn1"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 1"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn2"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 2"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn3"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 3"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn4"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 4"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn5"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 5"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn6"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 6"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn7"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 7"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn8"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 8"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn9"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 9"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn10"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 10"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn11"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 11"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/kdtghn12"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Tagihan 12"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

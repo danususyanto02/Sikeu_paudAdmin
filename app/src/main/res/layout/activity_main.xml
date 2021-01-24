@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#293462"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:text="User"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#a1abd7"
+                />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/edit_nama"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/edit_nis"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Nis"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/edit_email"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/edit_telp"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="No Telp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn1"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 1"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/tagn2"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 2"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn3"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 3"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn4"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 4"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn5"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 5"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn6"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 6"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn7"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 7"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn8"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 8"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn9"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 9"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/tagn10"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 10"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn11"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 11"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/tagn12"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Tagihan 12"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/kd_tghn1"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 1"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn2"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 2"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn3"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 3"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn4"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 4"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn5"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 5"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn6"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 6"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn7"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 7"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn8"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 8"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn9"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 9"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn10"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 10"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn11"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 11"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/kd_tghn12"
+                        android:layout_width="412dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Kode Tagihan 12"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <Button
+                        android:id="@+id/save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simpan"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+                    <Button
+                        android:id="@+id/show"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lihat Semua Data"/>
+                </RelativeLayout>
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
